@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Contador</title>
+</head>
+<body>
+    <h1>Contador de Números</h1>
+    <p>Defina a variação do contador:</p>
+    <div id="variation">
+        <button  onclick="decrement1()">-</button>
+        <span id="variationNumber">0</span>
+        <button  onclick="increment1()">+</button>
+    </div>
+    <p>Clique nos sinais para subtrair ou somar!</p>
+    <div id="counter">
+        <button name="dividir" onclick="divider()">÷</button>
+        <button name="subtrair" onclick="decrement()">-</button>
+        <span id="currentNumber">0</span>
+        <button name="adicionar" onclick="increment()">+</button>
+        <button name="multiplicar" onclick="multiplier()">x</button>
+    </div>
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
